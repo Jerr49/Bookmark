@@ -1,0 +1,241 @@
+.section{
+    display: grid;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    width: 100%;
+}
+.Htext{
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+.Simple{
+    font-size: 24px;
+    display: grid;
+}
+.para{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+.tab{
+    display: none;
+}
+#tab3{
+    display: none;
+}
+.clickbtn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+.chrome{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: rgb(1, 65, 240);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.firefox{
+    width: 40%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+    color: rgb(94, 94, 94);
+    border: none;
+    box-shadow: 0 3px 1px 2px rgba(122, 122, 122, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+@media only screen and (min-width: 350px){
+    .para{
+        font-size: 14px;
+    }
+}   
+@media only screen and (min-width:393px){
+    .para{
+        font-size: 18px;
+    }
+    .Simple{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .chrome{
+        font-size: 14px;
+    }
+    .firefox{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 428px){
+    .para{
+        font-size: 19px;
+    }
+    #span{
+        margin-left: 6px;
+    }
+}
+@media only screen and (min-width: 460px){
+    .Simple{
+        font-size: 26px;
+    }
+}
+@media only screen and (min-width: 540px){
+    .chrome{
+        font-size: 15px;
+    }
+    .firefox{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 800px){
+    .chrome{
+        width: 30%;
+    }
+    .firefox{
+        width: 30%;
+    }
+    .para{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 900px){
+    .Simple{
+        font-size: 30px;
+    }
+    .para{
+        width: 80%;
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    #tab3{
+        display: block;
+        width: 500px;
+        margin-right: 20px;
+        z-index: 1;
+    }
+    .tab{
+        display: block;
+        position: relative;
+        margin-top: -5%;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    #box{
+        width: 80%;
+        height: 70%;
+        margin-left:  20%;
+        margin-top: 20%;
+        position: absolute;
+        background-color: rgb(64, 64, 247);
+        border-radius: 80px 0 0 80px;
+    }
+    .Htext{
+        display: grid;
+        text-align: start;
+    }
+    .Simple{
+        display: grid;
+        font-size: 35px;
+        margin-left: -14%;
+    }
+    .para{
+        font-size: 22px;
+        width: 90%;
+        margin-left: 50px;
+
+    }
+    .clickbtn{
+        margin-left: 12%;
+        justify-content: flex-start;
+        width: 80%;
+    }
+    #Get{
+        font-size: 16px;
+        background-color: transparent;
+        width: 80%;
+        height: 50px;
+    }
+    .chrome{
+        color: gray;
+        border: 2px solid gray;
+        
+    }
+    .firefox{
+        color: gray;
+        border: 2px solid gray;
+
+    }.firefox:hover{
+
+        color: blue;
+        outline-color: blue;
+        border: 2px solid blue;
+        height: 50px;
+    }
+    .chrome:hover{
+        color: blue;
+        outline-color: blue;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (min-width: 1296px){
+    .Simple{
+        margin-left: -40%;
+    }
+    .para{
+        margin-left: 70px;
+    }
+    .clickbtn{
+        width: 60%;
+    }
+    .Htext{
+        margin-top: -30px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .Htext{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    .Simple{
+        font-size: 45px;
+        margin-right: -80px;
+    }
+    .para{
+        width: 90%;
+        font-size: 26px;
+    }
+    #tab3{
+        width: 600px;
+        margin-right: 50px;
+    }
+    .clickbtn .chrome{
+        height: 70px;
+    }
+    #Get{
+        height: 65px;
+        font-size: 21px;
+        border-radius: 8px;
+    }
+}
+
+

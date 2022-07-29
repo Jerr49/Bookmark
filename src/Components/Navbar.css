@@ -1,0 +1,39 @@
+@media only screen and (min-width: 600px){
+     .container-fluid{
+        width: 150%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .navbar-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 50%;
+
+    }
+    .nav-link.active{
+        font-size: 24px;
+    }
+    .nav-link.active:hover{
+        color: red;
+    }
+    .btn{
+        font-size: 18px;
+        width: 90px;
+        border: 2px solid gray;
+        margin-left: 5%;
+    }
+    .btn:hover{
+        color: red;
+        border: 1px solid red;
+    }
+    #logo{
+        width: 20%;
+    }
+}
+@media only screen and (min-width: 1495px){
+    #navbarNav{
+        margin-left: 25%;
+      
+    }
+}

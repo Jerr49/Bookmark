@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tab{
+    position: relative;
+    display: grid;
+    margin-bottom: 20%;
+}
+.tabbgrc{
+    position: absolute;
+    width: 75%;
+    height: 80%;
+    top: 40%;
+    background-color:rgb(64, 64, 247);
+    border-radius: 0 80px 80px 0;
+}
+.tabimg{
+    z-index: 1;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.tabimg2{
+    display: none;
+}
+.Intelligent{
+    display: none;
+}
+.bookmark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 89%;
+    margin: auto;
+    text-align: center;
+}
+#paragh{
+    color: gray;
+}
+
+@media only screen and (min-width: 350px){
+    .tabimg{
+        margin-left: 25%;
+        width: 230px;
+        height: 160px;
+    }
+    #paragh{
+        font-size: 17px;
+    }
+}  
+@media only screen and (min-width:393px){
+    .tabimg{
+        width: 270px;
+        height: 180px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #paragh{
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width:450px){
+    .tabimg{
+        width: 280px;
+        height: 190px;
+    }
+    .bookmark{
+        font-size: 20px;
+    }
+    #paragh{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 460px){
+    .tabimg{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 492px){
+    .tabimg{
+        width: 320px;
+        height: 220px;
+    }
+}
+@media only screen and (min-width: 540px){
+    .tabimg{
+        width: 330px;
+        height: 220px;
+    }
+    #paragh{
+        font-size: 22px;
+        width: 110%;
+    }
+}
+@media only screen and (min-width: 572px){
+    .tabimg{
+        width: 350px;
+        margin-left: 25%;
+    }
+    .tabbgrc{
+        width: 65%;
+    }
+}
+@media only screen and (min-width: 660px){
+  #paragh{
+    width: 100%;
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 728px){
+    .tabbgrc{
+      width: 50%;
+      margin-top: 10%;
+    }
+    .tabimg{
+      width: 370px;
+      height: 250px;
+    }
+    .tabbgrc{
+        height: 250px;
+        margin-top: -30px;
+    }
+    .bookmark{
+        margin-bottom: -10%;
+  }
+}
+@media only screen and (min-width: 768px){
+    .Search{
+        display: flex;
+        justify-content: space-between;
+    }
+    .tabimg{
+      display: none;
+    }
+    .tabimg2{
+      display: block;
+      z-index: 1;
+      margin-left: 30%;
+      margin-top: 20px;
+      width: 380px;
+    }
+    .tabimg2{
+        width: 310px;
+    }
+    .tabbgrc{
+        height: 80%;
+        width: 100%;
+    }
+    .Intelligent{
+        display: block;
+        z-index: 2;
+        width: 45%;
+        margin-top: 8%;
+    }
+    .search-text{
+        color: gray;
+        font-size: 16.5px;
+    }
+    .More{
+        border: none;
+        background-color: rgb(64, 64, 247);
+        color: white;
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 900px){
+    .search-text{
+        font-size: 18px;
+    }
+    .Intelligent{
+        margin-right: 10px;
+    }
+    #paragh{
+        font-size: 27px;
+        width: 90%;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .search-text{
+        font-size: 19px;
+    }
+    .tabimg2{
+        width: 330px;
+    }
+    .tabbgrc{
+        width: 110%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .Search{
+        margin-top: 5%;
+    }
+    .tabimg2{
+        display: none;
+    }
+    .tabimg{
+        display: block;
+    }
+    .int{
+        display: none;
+    }
+    .search-text{
+        display: none;
+    }
+    .sectab{
+        position: relative;
+    }
+    .bookmark{
+        left: 49%;
+        bottom: 80%;
+        position: absolute;
+        width: 51%;
+        text-align: start;
+    }
+    #Oneclick{
+        text-align: start;
+        margin-left: -41%;
+    }
+    #paragh{
+        width: 100%;
+        font-size: 22px;
+        text-align: start;
+    }
+    .More{
+        margin-top: 25%;
+        margin-left: -10%;
+        width: 25%;
+        height: 13%;
+        font-size: 18px;
+    }
+    .More:hover{
+        background-color: transparent;
+        color: rgb(64, 64, 247);
+        border: 2px solid rgb(64, 64, 247);
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 1296px){
+    .tabimg2{
+        width: 700px;
+        height: 400px;
+    }
+    .More{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .tabimg{
+        width: 500px;
+        height: 350px;
+    }
+    .Oneclick{
+        margin-top: 10%;
+        margin-right: 20px;
+    }
+    #paragh{
+        width: 90%;
+        font-size: 29px;
+        margin-left: 30px;
+    }
+    .More{
+        margin-left: -19px;
+        font-size: 23px;
+    }
+    .tabbgrc{
+        height: 82%;
+    }
+}
